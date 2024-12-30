@@ -72,7 +72,7 @@ export const projectData: ProjectProps[] = [
       />,
     techStack: ["Next.js", "Acernity", "ShadCN", "Tailwind", "Vercel"],
     visitLink: "https://next-wms-bay.vercel.app/",
-    githubLink: "https://github.com/be3jaay/next-wms",
+    githubLink: "https://github.com/be3jaay/next-bj-portfolio",
     hideButton: true
   },
 ]
