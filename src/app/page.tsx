@@ -8,11 +8,12 @@ import { ContactSection } from "@/components/section/contact-section";
 
 export default function Home() {
   return (
-    <div className="bg-zinc-900 w-full h-full p-4 md:px-16 lg:px-[35rem]">
+    <div className="bg-zinc-900 w-full h-full p-4 sm:p-6 md:px-8 lg:px-16 xl:max-w-4xl xl:mx-auto">
       <HeroSection />
       <ExperienceSection />
       <ProjectSection />
       <ContactSection />
     </div>
+
   );
 }

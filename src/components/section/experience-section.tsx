@@ -6,7 +6,7 @@ import { experienceData } from "@/constants/experience-section-data";
 
 export const ExperienceSection: React.FC = () => {
   return (
-    <div className="w-full h-full flex items-start justify-center flex-col pb-12">
+    <div className="w-full h-full flex items-center lg:items-start justify-center flex-col my-12">
       <div className="text-3xl md:text-4xl font-bold text-green-400">
         Experience
       </div>

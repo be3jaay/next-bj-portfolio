@@ -29,7 +29,7 @@ const contactLinks: ContactLink[] = [
 ]
 export const ContactSection: React.FC = () => {
   return (
-    <div className="w-full h-full flex items-start justify-center flex-col py-12">
+    <div className="w-full h-full flex items-center lg:items-start justify-center flex-col py-12 lg:pb-12">
       <div className="text-3xl md:text-4xl font-bold text-green-400">
         Contact Me
       </div>

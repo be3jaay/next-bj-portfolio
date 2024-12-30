@@ -7,6 +7,7 @@ import { LinkPreview } from "../ui/link-preview";
 import { Button } from "../ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { techStack } from "@/constants/hero-section-data";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -39,26 +40,29 @@ export const HeroSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6 w-full space-y-6">
-        <div className="font-extralight text-base md:text-xl dark:text-neutral-200">
+      <div className="mt-6 w-full space-y-6 flex items-center flex-col lg:items-start lg:justify-start">
+        <div className="font-extralight text-base md:text-xl dark:text-neutral-200 text-center lg:text-start">
           You can call me <strong>(BJ)</strong> your friendly neighborhood <strong>Software Engineer </strong>that enjoy turning coffee into code
           , and I&apos;m always looking for the next challenge to enhance my skills.
         </div>
         <div className="flex items-center gap-2">
-          <Button className="bg-black dark:bg-white rounded-full w-fit px-4 py-2">
-            Download Resume
-          </Button>
+          <a href="/brianResume.pdf" download="BrianResume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-black dark:bg-white rounded-full w-fit px-4 py-2">
+              Download Resume
+              <MdOutlineFileDownload />
+            </Button>
+          </a>
           <Button
             className="bg-transparent text-white rounded-full w-fit px-4 py-2"
             variant={"link"}
             onClick={() => window.open("https://www.linkedin.com/in/this-is-brian/")}
           >
-            View LinkedIn
+            Visit LinkedIn
           </Button>
         </div>
       </div>
 
-      <div className="w-full flex items-center flex-col lg:grid lg:grid-cols-4 lg:grid-rows-auto gap-2 mt-12">
+      <div className="w-full flex items-center flex-col lg:grid lg:grid-cols-4 lg:grid-row-dense auto-cols-max lg:grid-rows-auto gap-2 mt-12">
         {techStack?.map((item, index) => (
           <Card className="w-full" key={index}>
             <CardHeader className="flex items-center justify-center">
