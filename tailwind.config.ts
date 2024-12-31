@@ -15,6 +15,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {},
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },

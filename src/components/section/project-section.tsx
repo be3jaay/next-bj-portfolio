@@ -18,7 +18,7 @@ export const ProjectSection: React.FC = () => {
         {projectData?.map((project, index) => (
           <Card key={index} >
             <CardHeader>
-              <CardTitle>{project.title}</CardTitle>
+              <CardTitle className="text-xl">{project.title}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col items-start justify-center w-full h-full gap-4">

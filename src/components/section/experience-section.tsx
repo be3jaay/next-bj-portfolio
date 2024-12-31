@@ -16,12 +16,12 @@ export const ExperienceSection: React.FC = () => {
             <CardHeader className="flex items-start justify-center w-full space-y-6">
               <CardTitle className="w-full flex items-start justify-between">
                 <div className="flex flex-col gap-2">
-                  <span className="text-2xl text-zinc-100">{experience.title}</span>
-                  <span className="text-md text-zinc-400">{experience.role}</span>
+                  <span className="text-2xl text-zinc-800 dark:text-zinc-100">{experience.title}</span>
+                  <span className="text-md text-zinc-600 dark:text-zinc-400">{experience.role}</span>
                 </div>
-                <span className="text-sm text-zinc-400">{experience.date}</span>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400">{experience.date}</span>
               </CardTitle>
-              <CardDescription className="text-white" >
+              <CardDescription className="dark:text-white " >
                 {experience.description}
               </CardDescription>
             </CardHeader>

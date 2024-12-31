@@ -8,6 +8,6 @@
   }
   html {
     font-family: "Oswald", serif;
-    background-color: #18181b;
+    @apply bg-zinc-100 dark:bg-zinc-900;
   }
 }

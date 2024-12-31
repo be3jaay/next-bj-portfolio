@@ -33,10 +33,10 @@ export const ContactSection: React.FC = () => {
       <div className="text-3xl md:text-4xl font-bold text-green-400">
         Contact Me
       </div>
-      <p className="text-start text-xl mt-2 text-gray-400">
+      <p className="text-center lg:text-start text-xl mt-2 tex-zinc-700 dark:text-zinc-400">
         I&apos;m always open to new opportunities and collaborations. Feel free to reach out through any of the platforms below.
       </p>
-      <p className="text-start text-xl mt-2 text-gray-300 mb-8 ">Location: Calamba Laguna 📍</p>
+      <p className="text-start text-xl mt-2 text-zinc-500 dark:text-gray-300 mb-8 ">Location: Calamba Laguna 📍</p>
       <div className="flex justify-center space-x-6">
         {contactLinks.map((link, index) => (
           <Link
@@ -44,7 +44,7 @@ export const ContactSection: React.FC = () => {
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center space-y-2 text-zinc-500 hover:text-slate-100 transition-colors duration-300"
+            className="flex flex-col items-center space-y-2 text-zinc-600 hover:text-zinc-950 dark:text-zinc-500 dark:hover:text-slate-100 transition-colors duration-300"
           >
             {link.icon}
             <span className="text-sm">{link.label}</span>
