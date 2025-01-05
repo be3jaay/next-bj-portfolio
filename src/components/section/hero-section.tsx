@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 export const HeroSection: React.FC = () => {
   return (
-    <div className="w-full lg:h-screen flex items-center lg:items-start justify-center flex-col">
+    <div className="w-full lg:h-screen flex items-center lg:items-start justify-center flex-col lg:-mt-24">
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ export const HeroSection: React.FC = () => {
               className="rounded-full border-2 border-green-400 p-1"
             />
           </LinkPreview>
-          <div className="space-y-3 flex items-start flex-col">
+          <div className="space-y-3 flex items-center lg:items-start flex-col">
             <div className="text-3xl md:text-4xl font-bold text-zinc-800 dark:text-zinc-200">
               Ciao, I&apos;m Brian James
             </div>
