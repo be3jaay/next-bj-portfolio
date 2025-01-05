@@ -13,7 +13,10 @@ type ThemeContextValue = {
   toggleTheme: () => void;
 };
 
-const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextValue>({
+  theme: "light",
+  toggleTheme: () => { },
+});
 
 export const useThemeContext = () => {
   if (!ThemeContext) {
@@ -23,9 +26,7 @@ export const useThemeContext = () => {
 };
 
 export const ThemeProvider: React.FC<PropsWithChildren> = ({ children }) => {
-  const localTheme = localStorage.getItem("theme") as "light" | "dark";
-
-  const [theme, setTheme] = useState<"light" | "dark">(localTheme);
+  const [theme, setTheme] = useState<"light" | "dark">(localStorage.getItem("theme") as "light" | "dark");
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
