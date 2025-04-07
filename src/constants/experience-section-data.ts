@@ -12,7 +12,7 @@ export const experienceData: ExperienceProps[] = [
     role: "Lead Full-Stack Developer Intern",
     date: "February 2025 - Present",
     description:
-      "Leading a team of 5 developers in the development of a web-based application for the Department of Science and Technology (DOST) Calabarzon. The project aims to streamline the process of managing and tracking research projects within the department. Utilizing Next JS, Laravel, and MySQL, I am responsible for overseeing the development process, ensuring code quality, and implementing best practices in software development. Collaborating closely with stakeholders to gather requirements and provide regular updates on project progress.",
+      "Leading a team of 4 members in the development of a web-based application for the Department of Science and Technology (DOST) Calabarzon. The project aims to streamline the process of managing and tracking research projects within the department. Utilizing Next JS, Laravel, and MySQL, I am responsible for overseeing the development process, ensuring code quality, and implementing best practices in software development. Collaborating closely with stakeholders to gather requirements and provide regular updates on project progress.",
     skills: [
       "Next.js",
       "Laravel",

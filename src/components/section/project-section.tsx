@@ -74,7 +74,6 @@ export const ProjectSection: React.FC = () => {
                 <CardTitle className="text-2xl font-bold flex items-center gap-2">
                   {project.title}
                   <motion.div animate={{ x: hoveredIndex === index ? 5 : 0 }} transition={{ duration: 0.2 }}>
-                    <ArrowRight className="h-5 w-5 text-green-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </motion.div>
                 </CardTitle>
                 <CardDescription className="text-base mt-2 leading-relaxed">{project.description}</CardDescription>
