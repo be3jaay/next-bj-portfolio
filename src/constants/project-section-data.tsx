@@ -25,26 +25,26 @@ export const projectData: ProjectProps[] = [
       <Image
         src={mapPride}
         alt="Brian James"
-        className="w-full h-auto rounded-lg cursor-pointer hover:scale-90 hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-        onClick={() => window.open("https://map-pride-db7f3dd938d6.herokuapp.com")}
+        className="w-full h-auto rounded-lg cursor-pointer  hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
     techStack: ["React.js", "Laravel", "PostgreSQL", "Tailwind", "Heroku", "Cloudinary"],
     visitLink: "https://map-pride-db7f3dd938d6.herokuapp.com",
-    githubLink: "https://github.com/be3jaay/MapPride"
+    githubLink: "https://github.com/be3jaay/MapPride",
+    hideButton: true
   },
   {
-    title: "Water Monitoring (Not yet Complete)",
+    title: "Water Monitoring System",
     description: `A real-time water monitoring system that tracks water parameters such as temperature, pH levels, and dissolved oxygen. The system includes real-time notifications to detect and alert users about anomalies in any of the monitored parameters.`,
     image:
       <Image
         src={wms}
         alt="Brian James"
-        className="w-full h-auto rounded-lg cursor-pointer hover:scale-90 hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-        onClick={() => window.open("https://next-wms-bay.vercel.app/")}
+        className="w-full h-auto rounded-lg cursor-pointer hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
     techStack: ["Next.js", "Laravel", "MySQL", "ShadCN", "Clerk", "TanStack", "Vercel"],
     visitLink: "https://next-wms-bay.vercel.app/",
-    githubLink: "https://github.com/be3jaay/next-wms"
+    githubLink: "https://github.com/be3jaay/next-wms",
+    hideButton: true
   },
   {
     title: "Military Trello Analytics ",
@@ -53,12 +53,12 @@ export const projectData: ProjectProps[] = [
       <Image
         src={military}
         alt="Brian James"
-        className="w-full h-auto rounded-lg cursor-pointer hover:scale-90 hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-        onClick={() => window.open("https://user12345.netlify.app/")}
+        className="w-full h-auto rounded-lg cursor-pointer  hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
     techStack: ["React.js", "Node.js", "MongoDB", "Tailwind"],
     visitLink: "https://user12345.netlify.app/",
     githubLink: "https://github.com/dangrishh/Military-Trello-Analytics",
+    hideButton: true
   },
   {
     title: "Portfolio",
@@ -67,8 +67,7 @@ export const projectData: ProjectProps[] = [
       <Image
         src={portfolio}
         alt="Brian James"
-        className="w-full h-auto rounded-lg border border-zinc-800 cursor-pointer hover:scale-90 hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-        onClick={() => window.open("https://next-wms-bay.vercel.app/")}
+        className="w-full h-auto rounded-lg border border-zinc-800 cursor-pointer hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
     techStack: ["Next.js", "Acernity", "ShadCN", "Tailwind", "Vercel"],
     visitLink: "https://next-wms-bay.vercel.app/",
