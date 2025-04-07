@@ -6,7 +6,6 @@ import { ProjectSection } from "@/components/section/project-section";
 import { ExperienceSection } from "@/components/section/experience-section";
 import { ContactSection } from "@/components/section/contact-section";
 import { Header } from "@/components/section/header";
-import { Terminal } from "@/components/magicui/terminal";
 import Loading  from "./loading";
 
 export default function Home() {

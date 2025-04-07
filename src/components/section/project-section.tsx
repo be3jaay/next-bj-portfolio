@@ -8,7 +8,7 @@ import { Badge } from "../ui/badge"
 import { projectData } from "@/constants/project-section-data"
 import { LinkPreview } from "../ui/link-preview"
 import { motion } from "framer-motion"
-import { ExternalLink, Github, ArrowRight } from "lucide-react"
+import { ExternalLink, Github } from "lucide-react"
 
 export const ProjectSection: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)

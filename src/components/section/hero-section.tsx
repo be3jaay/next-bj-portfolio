@@ -9,10 +9,8 @@ import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { techStack } from "@/constants/hero-section-data";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { BoxReveal } from "../magicui/box-reveal";
-
 import { motion } from "framer-motion";
 
-// animation variants
 const containerVariants = {
   hidden: {},
   show: {
