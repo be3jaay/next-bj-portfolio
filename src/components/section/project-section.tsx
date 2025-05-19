@@ -26,7 +26,7 @@ export const ProjectSection: React.FC = () => {
         transition={{ duration: 0.7, ease: "easeOut" }}
         className="relative mb-12"
       >
-        <h2 className="text-3xl md:text-5xl font-bold text-green-400 mb-2">Projects</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-green-400 mb-2">Notable Projects</h2>
         <div className="h-1 w-1/2 bg-gradient-to-r from-green-400 to-transparent rounded-full"></div>
       </motion.div>
 

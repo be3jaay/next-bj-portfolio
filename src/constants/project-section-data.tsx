@@ -2,8 +2,6 @@ import Image from "next/image";
 import React, { ReactElement } from "react";
 import mapPride from "../../public/image/mapPride.png";
 import wms from "../../public/image/wms.png";
-import military from "../../public/image/military.png";
-import portfolio from "../../public/image/portfolio.png";
 
 type ProjectProps = {
   title: string;
@@ -27,7 +25,7 @@ export const projectData: ProjectProps[] = [
         alt="Brian James"
         className="w-full h-auto rounded-lg cursor-pointer  hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
-    techStack: ["React.js", "Laravel", "PostgreSQL", "Tailwind", "Heroku", "Cloudinary"],
+    techStack: ["React.js", "Laravel", "PostgreSQL", "Tailwind CSS", "Cloudinary", "Chart.js"],
     visitLink: "https://map-pride-db7f3dd938d6.herokuapp.com",
     githubLink: "https://github.com/be3jaay/MapPride",
     hideButton: true
@@ -41,37 +39,9 @@ export const projectData: ProjectProps[] = [
         alt="Brian James"
         className="w-full h-auto rounded-lg cursor-pointer hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
       />,
-    techStack: ["Next.js", "Laravel", "MySQL", "ShadCN", "Clerk", "TanStack", "Vercel"],
-    visitLink: "https://next-wms-bay.vercel.app/",
+    techStack: ["Next.js", "Laravel", "MySQL", "ShadCN", "Clerk", "Recharts"],
+    visitLink: "https://bfar-r4a-rtms.vercel.app/",
     githubLink: "https://github.com/be3jaay/next-wms",
-    hideButton: true
-  },
-  {
-    title: "Military Trello Analytics ",
-    description: `A Dashboard and CRUD application designed for military use, featuring data input and dynamic graph generation for visualization. The application incorporates a Trello-like interface for organizing tasks and data efficiently, providing an interactive and user-friendly experience.`,
-    image:
-      <Image
-        src={military}
-        alt="Brian James"
-        className="w-full h-auto rounded-lg cursor-pointer  hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-      />,
-    techStack: ["React.js", "Node.js", "MongoDB", "Tailwind"],
-    visitLink: "https://user12345.netlify.app/",
-    githubLink: "https://github.com/dangrishh/Military-Trello-Analytics",
-    hideButton: true
-  },
-  {
-    title: "Portfolio",
-    description: `The portfolio highlights my expertise in [e.g., web development, data analysis], featuring a clean and user-friendly design.`,
-    image:
-      <Image
-        src={portfolio}
-        alt="Brian James"
-        className="w-full h-auto rounded-lg border border-zinc-800 cursor-pointer hover:-hue-rotate-15 transition-all duration-300 ease-in-out"
-      />,
-    techStack: ["Next.js", "Acernity", "ShadCN", "Tailwind", "Vercel"],
-    visitLink: "https://next-wms-bay.vercel.app/",
-    githubLink: "https://github.com/be3jaay/next-bj-portfolio",
-    hideButton: true
+    hideButton: false
   },
 ]
