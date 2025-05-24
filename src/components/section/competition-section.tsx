@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import type React from "react"
 import { useRef } from "react"
 import { motion } from "framer-motion"
-import { BrainCog, MapPin } from "lucide-react"
+import { MapPin } from "lucide-react"
 import { Badge } from "../ui/badge"
 import { competitionData } from "@/constants/competition-section-data"
 
@@ -44,8 +45,12 @@ export const CompetitionSection: React.FC = () => {
           >
             <div className="flex items-start gap-6 pb-8 relative">
               <div className="flex-shrink-0 w-16 h-16 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center overflow-hidden border-2 border-green-400/20 z-10">
-                <div className="w-10 h-10 bg-green-400/20 rounded-full flex items-center justify-center">
-                  <BrainCog className="w-5 h-5 text-green-600 dark:text-green-400" />
+                <div className="">
+                  <img
+                    src={competition.image as string}
+                    alt=""
+                    className="w-12 h-12 bg-green-400/20 rounded-full flex items-center justify-center"
+                  />
                 </div>
               </div>
               <div className="flex-1">

@@ -6,6 +6,7 @@ export type ExperienceProps = {
   skills?: string[];
   location?: string;
   icon?: string;
+  image?: string;
 };
 
 export const experienceData: ExperienceProps[] = [
