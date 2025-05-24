@@ -15,7 +15,7 @@ export const competitionData: ExperienceProps[] = [
   {
     title: "🤖 Gen AI Philippines (Hackathon)",
     role: "Full-Stack Developer",
-    date: "April 2024 - May 2025",
+    date: "April 2025 - May 2025",
     description: `Built a gamified AI-powered learning platform where users select a companion with different teaching styles or personalities, and are coached and guided by them throughout their learning journey.`,
     skills: [
       "Next.js",
@@ -32,7 +32,7 @@ export const competitionData: ExperienceProps[] = [
   {
     title: "💻 AppCon 2024 (Competition)",
     role: "Full-Stack Developer",
-    date: "December 2024 - May 2024",
+    date: "December 2024 - May 2025",
     description: `Built a mobile application using React Native and Laravel to support disaster preparedness, response, and community-driven forums and service outage reporting to improve information flow during critical events`,
     skills: [
       "React Native",
